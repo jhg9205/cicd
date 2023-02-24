@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "Hello #웹훅 테스트 최종 금요일";
+        return "Hello #웹훅 테스트 최종 금요일 로그쌓기";
     }
 }
